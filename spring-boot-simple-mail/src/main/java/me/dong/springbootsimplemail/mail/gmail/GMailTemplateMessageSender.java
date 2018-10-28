@@ -11,13 +11,13 @@ import java.util.List;
  * Created by huekim on 2018. 10. 28..
  */
 @Component
-public class TemplateMessageGMailSender {
+public class GMailTemplateMessageSender {
 
     private final MailSender mailSender;
 
     private final SimpleMailMessage template;
 
-    public TemplateMessageGMailSender(MailSender mailSender, SimpleMailMessage template) {
+    public GMailTemplateMessageSender(MailSender mailSender, SimpleMailMessage template) {
         this.mailSender = mailSender;
         this.template = template;
     }

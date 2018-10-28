@@ -14,10 +14,10 @@ import java.util.List;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class TemplateMessageGMailSenderTest {
+public class GMailTemplateMessageSenderTest {
 
     @Autowired
-    private TemplateMessageGMailSender sut;
+    private GMailTemplateMessageSender sut;
 
     @Test
     public void 단일_수신자에게_전송시_성공() {

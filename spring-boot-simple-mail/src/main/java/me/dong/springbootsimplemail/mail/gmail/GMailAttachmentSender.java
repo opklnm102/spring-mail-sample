@@ -51,7 +51,7 @@ public class GMailAttachmentSender {
 
             mailSender.send(message);
         } catch (MessagingException e) {
-            log.error("fail send message ", e);
+            log.error("fail send message - to: {}, subject: {}, text: {}, attachments: {}", to, subject, text, pathToAttachments, e);
         }
     }
 }

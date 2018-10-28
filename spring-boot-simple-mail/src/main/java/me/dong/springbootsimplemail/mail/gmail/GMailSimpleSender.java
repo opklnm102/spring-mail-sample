@@ -12,7 +12,7 @@ import java.util.List;
  * Created by huekim on 2018. 10. 27..
  */
 @Component
-public class SimpleGMailSender {
+public class GMailSimpleSender {
 
     @Autowired
     private MailSender mailSender;

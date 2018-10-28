@@ -1,6 +1,5 @@
-package me.dong.springbootsimplemail.gmail;
+package me.dong.springbootsimplemail.mail.gmail;
 
-import me.dong.springbootsimplemail.mail.gmail.SimpleGMailSender;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,10 +17,10 @@ import java.util.List;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SimpleGMailSenderTest {
+public class GMailSimpleSenderTest {
 
     @Autowired
-    private SimpleGMailSender sut;
+    private GMailSimpleSender sut;
 
     @Test
     public void 단일_수신자에게_전송시_성공() throws Exception {
