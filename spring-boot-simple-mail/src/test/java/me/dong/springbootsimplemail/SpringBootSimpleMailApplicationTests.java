@@ -1,4 +1,4 @@
-package me.dong.mailsample;
+package me.dong.springbootsimplemail;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class MailSampleApplicationTests {
+public class SpringBootSimpleMailApplicationTests {
 
     @Test
     public void contextLoads() {

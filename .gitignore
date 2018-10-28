@@ -24,3 +24,6 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+
+/spring-boot-simple-mail/build/
+/spring-boot-simple-mail/out/

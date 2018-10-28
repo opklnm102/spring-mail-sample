@@ -1,5 +1,6 @@
-package me.dong.mailsample.mail.gmail;
+package me.dong.springbootsimplemail.gmail;
 
+import me.dong.springbootsimplemail.mail.gmail.SimpleGMailSender;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;

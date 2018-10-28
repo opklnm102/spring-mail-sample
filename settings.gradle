@@ -1,1 +1,3 @@
-rootProject.name = 'mail-sample'
+rootProject.name = 'spring-mail-sample'
+
+include 'spring-boot-simple-mail'

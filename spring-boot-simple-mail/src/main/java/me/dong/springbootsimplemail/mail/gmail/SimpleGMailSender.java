@@ -1,4 +1,4 @@
-package me.dong.mailsample.mail.gmail;
+package me.dong.springbootsimplemail.mail.gmail;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailSender;

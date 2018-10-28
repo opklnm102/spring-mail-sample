@@ -1,4 +1,4 @@
-package me.dong.mailsample;
+package me.dong.springbootsimplemail;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * https://www.baeldung.com/spring-email
  */
 @SpringBootApplication
-public class MailSampleApplication {
+public class SpringBootSimpleMailApplication {
 
     /*
     MailSender
@@ -29,6 +29,6 @@ public class MailSampleApplication {
      */
 
     public static void main(String[] args) {
-        SpringApplication.run(MailSampleApplication.class, args);
+        SpringApplication.run(SpringBootSimpleMailApplication.class, args);
     }
 }
