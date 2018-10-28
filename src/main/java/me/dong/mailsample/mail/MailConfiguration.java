@@ -13,7 +13,8 @@ import java.util.Properties;
 @Configuration
 public class MailConfiguration {
 
-    @Bean
+    // not use auto configuration
+//    @Bean
     public JavaMailSender javaMailSender() {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
 

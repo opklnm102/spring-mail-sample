@@ -5,6 +5,7 @@ import org.springframework.mail.MailSender;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.stereotype.Component;
 
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -17,12 +18,7 @@ public class SimpleGMailSender {
     private MailSender mailSender;
 
     public void sendMessage(String to, String subject, String text) {
-        SimpleMailMessage message = new SimpleMailMessage();
-        message.setTo(to);
-        message.setSubject(subject);
-        message.setText(text);
-
-        mailSender.send(message);
+        sendMessage(Collections.singletonList(to), subject, text);
     }
 
     public void sendMessage(List<String> to, String subject, String text) {
